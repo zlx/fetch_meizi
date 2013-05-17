@@ -1,6 +1,6 @@
 # Fetch::Meizi
 
-TODO: Write a gem description
+Fetch a Image url from meizitu
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `fetch-meizi` anywhere you like, and it will return a link to the
+newest meizitu
 
 ## Contributing
 
