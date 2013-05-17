@@ -6,7 +6,7 @@ Fetch a Image url from meizitu
 
 Add this line to your application's Gemfile:
 
-    gem 'fetch-meizi'
+    gem 'fetch_meizi'
 
 And then execute:
 
@@ -14,12 +14,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install fetch-meizi
+    $ gem install fetch_meizi
 
 ## Usage
 
-Run `fetch-meizi` anywhere you like, and it will return a link to the
-newest meizitu
+As executable file, run `fetchmeizi`
+As library, call `Meizi.fetch`
+
+They all return a link for newest meizi
 
 ## Contributing
 

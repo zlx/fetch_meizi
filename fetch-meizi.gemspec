@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fetch/meizi/version'
+require 'fetch_meizi/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fetch-meizi"
-  spec.version       = Fetch::Meizi::VERSION
+  spec.name          = "fetch_meizi"
+  spec.version       = FetchMeizi::VERSION
   spec.authors       = ["soffolk"]
-  spec.email         = ["lianxin.zhu@easyread.ly"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["zlx.star@gmail.com"]
+  spec.description   = %q{Fetch the newest image from meizitu}
+  spec.summary       = %q{Fetch the newest image from meizitu}
   spec.homepage      = ""
   spec.license       = "MIT"
 
