@@ -14,5 +14,3 @@ class Meizi
   end
   
 end
-
-p Meizi.fetch
